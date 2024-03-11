@@ -1,0 +1,667 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void ButtonControler::Start()
+extern void ButtonControler_Start_mCAB9C4AE6A5B732F9D29FA44F843739B066829B4 (void);
+// 0x00000002 System.Void ButtonControler::Update()
+extern void ButtonControler_Update_m13976D3FE181461717A27A79D63BEC1A271DD30E (void);
+// 0x00000003 System.Void ButtonControler::.ctor()
+extern void ButtonControler__ctor_mDB29A04AAE70057B58BE43D71A422F685229C6C5 (void);
+// 0x00000004 System.Void DrawLine::Start()
+extern void DrawLine_Start_m482323EBA42C14D00D810EF242B16D373FDC34B0 (void);
+// 0x00000005 System.Void DrawLine::Update()
+extern void DrawLine_Update_m707166BCDD346A55544527D1C963D88CB2C1377B (void);
+// 0x00000006 System.Void DrawLine::.ctor()
+extern void DrawLine__ctor_m8609DDD68BCAF632AA855FF766E69B83D1AD01C4 (void);
+// 0x00000007 System.Void TimeTracker::Start()
+extern void TimeTracker_Start_m0D465FB50B4F32610B9A50633831D5526226FE9A (void);
+// 0x00000008 System.Void TimeTracker::Update()
+extern void TimeTracker_Update_mFCE263E7DF3674A4640E56A5F3C96BA552AA12D1 (void);
+// 0x00000009 System.Void TimeTracker::.ctor()
+extern void TimeTracker__ctor_m98DD7C9C62D67420646C0CBB44D0F14035C786A9 (void);
+// 0x0000000A System.Void MyQRCodeManager::StartScan()
+extern void MyQRCodeManager_StartScan_mF73313FBF5BE688D52CD7726B94CF0D9A83AA7E1 (void);
+// 0x0000000B System.Void MyQRCodeManager::StopScan()
+extern void MyQRCodeManager_StopScan_m2C165017A5374CF98969D567C7EBB890682CC992 (void);
+// 0x0000000C System.Void MyQRCodeManager::.ctor()
+extern void MyQRCodeManager__ctor_m27E49A2CC6E7712EDA03228194DF31A10C645471 (void);
+// 0x0000000D System.Void StepData::.ctor()
+extern void StepData__ctor_mFB09FEB422A40D81A3DEA03CC67B097054DDC6D5 (void);
+// 0x0000000E System.Void StepHandler::Start()
+extern void StepHandler_Start_mD55E6291A95FB5A0851E72A8E2F05668B89FBFB5 (void);
+// 0x0000000F System.Void StepHandler::StepHandling(System.Int32)
+extern void StepHandler_StepHandling_m6BB14B9E659D1DE549BD246BE3A13192315F1A5A (void);
+// 0x00000010 System.Void StepHandler::Navigate(System.Boolean)
+extern void StepHandler_Navigate_mEB5293DD8F6776C71BA40D5CB317A489BEBC9979 (void);
+// 0x00000011 System.Void StepHandler::.ctor()
+extern void StepHandler__ctor_mA3653DBC6137C78851C7C64D57A3FDCBFFA8D375 (void);
+// 0x00000012 T[] JsonHelper::FromJson(System.String)
+// 0x00000013 System.String JsonHelper::ToJson(T[])
+// 0x00000014 System.String JsonHelper::ToJson(T[],System.Boolean)
+// 0x00000015 System.Void JsonHelper/Wrapper`1::.ctor()
+// 0x00000016 System.Single QRTracking.QRCode::get_PhysicalSize()
+extern void QRCode_get_PhysicalSize_m9BAFFDFA74DE09930F8D66F0E37B2E1A6EC15421 (void);
+// 0x00000017 System.Void QRTracking.QRCode::set_PhysicalSize(System.Single)
+extern void QRCode_set_PhysicalSize_m0A4AFD0FA61E1E75AB70146A601F32920D288BFB (void);
+// 0x00000018 System.String QRTracking.QRCode::get_CodeText()
+extern void QRCode_get_CodeText_m14CBFF93BBC261D89838E3CD5D2119BF94A3C3FF (void);
+// 0x00000019 System.Void QRTracking.QRCode::set_CodeText(System.String)
+extern void QRCode_set_CodeText_mB4878FD110C1D5CC31A1902023CE50DC3BAB433A (void);
+// 0x0000001A System.Void QRTracking.QRCode::Start()
+extern void QRCode_Start_mC52A1519A5B2DDBFC5C6A2C63A3FC0D815DB2C4E (void);
+// 0x0000001B System.Void QRTracking.QRCode::UpdatePropertiesDisplay()
+extern void QRCode_UpdatePropertiesDisplay_m200F7E7501142FF0336A1BD7DBBB6E07A65581FD (void);
+// 0x0000001C System.Void QRTracking.QRCode::Update()
+extern void QRCode_Update_m229CE998A0C5BFC253ED9232267231EE5C2D0283 (void);
+// 0x0000001D System.Void QRTracking.QRCode::LaunchUri()
+extern void QRCode_LaunchUri_m7EEDC21E2709EC77C69F9FCC577B44900FF48122 (void);
+// 0x0000001E System.Void QRTracking.QRCode::OnInputClicked()
+extern void QRCode_OnInputClicked_mB32979A657D9ADD556CFA0CF9A4D516E5325B8FC (void);
+// 0x0000001F System.Void QRTracking.QRCode::.ctor()
+extern void QRCode__ctor_m0574CE789771CAD1E0028F3637E6B8B11905A963 (void);
+// 0x00000020 QRTracking.QRCodeEventArgs`1<TData> QRTracking.QRCodeEventArgs::Create(TData)
+// 0x00000021 TData QRTracking.QRCodeEventArgs`1::get_Data()
+// 0x00000022 System.Void QRTracking.QRCodeEventArgs`1::set_Data(TData)
+// 0x00000023 System.Void QRTracking.QRCodeEventArgs`1::.ctor(TData)
+// 0x00000024 System.Boolean QRTracking.QRCodesManager::get_IsTrackerRunning()
+extern void QRCodesManager_get_IsTrackerRunning_mEB820442D0588EC9382806131768ED2655C8729B (void);
+// 0x00000025 System.Void QRTracking.QRCodesManager::set_IsTrackerRunning(System.Boolean)
+extern void QRCodesManager_set_IsTrackerRunning_m37EB90CB0A2D98DA445CD02A3A473D01522C05FB (void);
+// 0x00000026 System.Boolean QRTracking.QRCodesManager::get_IsSupported()
+extern void QRCodesManager_get_IsSupported_m09F2E18B4C918A98BCF6699EEAA2592A1F3F0C84 (void);
+// 0x00000027 System.Void QRTracking.QRCodesManager::set_IsSupported(System.Boolean)
+extern void QRCodesManager_set_IsSupported_m8829FFCED6A719B474472C4156D9B92902E1AE18 (void);
+// 0x00000028 System.Void QRTracking.QRCodesManager::add_QRCodesTrackingStateChanged(System.EventHandler`1<System.Boolean>)
+extern void QRCodesManager_add_QRCodesTrackingStateChanged_m913730A12A01302F5FB3B5B4C08256CF9E855C4C (void);
+// 0x00000029 System.Void QRTracking.QRCodesManager::remove_QRCodesTrackingStateChanged(System.EventHandler`1<System.Boolean>)
+extern void QRCodesManager_remove_QRCodesTrackingStateChanged_mB71F5708EF9CBA6F5E9896190F370B910A51A48F (void);
+// 0x0000002A System.Void QRTracking.QRCodesManager::add_QRCodeAdded(System.EventHandler`1<QRTracking.QRCodeEventArgs`1<Microsoft.MixedReality.QR.QRCode>>)
+extern void QRCodesManager_add_QRCodeAdded_m8CCDC766AC4BBD088E2580C0BFA7372CB098D64C (void);
+// 0x0000002B System.Void QRTracking.QRCodesManager::remove_QRCodeAdded(System.EventHandler`1<QRTracking.QRCodeEventArgs`1<Microsoft.MixedReality.QR.QRCode>>)
+extern void QRCodesManager_remove_QRCodeAdded_m3EE0D8F4E7023874EF6643B9D70E8240A8C0AA5D (void);
+// 0x0000002C System.Void QRTracking.QRCodesManager::add_QRCodeUpdated(System.EventHandler`1<QRTracking.QRCodeEventArgs`1<Microsoft.MixedReality.QR.QRCode>>)
+extern void QRCodesManager_add_QRCodeUpdated_mDD7664BAA2BFCA8367E1D10E6E5D0B38A5AD5578 (void);
+// 0x0000002D System.Void QRTracking.QRCodesManager::remove_QRCodeUpdated(System.EventHandler`1<QRTracking.QRCodeEventArgs`1<Microsoft.MixedReality.QR.QRCode>>)
+extern void QRCodesManager_remove_QRCodeUpdated_m443468F8A0552E22C14E23AF70C35629F4A85017 (void);
+// 0x0000002E System.Void QRTracking.QRCodesManager::add_QRCodeRemoved(System.EventHandler`1<QRTracking.QRCodeEventArgs`1<Microsoft.MixedReality.QR.QRCode>>)
+extern void QRCodesManager_add_QRCodeRemoved_mD4F8C41368DBAC477390D64A606780C074A73C3B (void);
+// 0x0000002F System.Void QRTracking.QRCodesManager::remove_QRCodeRemoved(System.EventHandler`1<QRTracking.QRCodeEventArgs`1<Microsoft.MixedReality.QR.QRCode>>)
+extern void QRCodesManager_remove_QRCodeRemoved_mE9CC875A8551688DE05448806FC4C702E9B45D2D (void);
+// 0x00000030 System.Guid QRTracking.QRCodesManager::GetIdForQRCode(System.String)
+extern void QRCodesManager_GetIdForQRCode_m783BF8E2DBB0B8587AD8F1B597C90777E19C239F (void);
+// 0x00000031 System.Collections.Generic.IList`1<Microsoft.MixedReality.QR.QRCode> QRTracking.QRCodesManager::GetList()
+extern void QRCodesManager_GetList_mB93EBEE810A94A61F29230CC7D241E754F2B5E15 (void);
+// 0x00000032 System.Void QRTracking.QRCodesManager::Awake()
+extern void QRCodesManager_Awake_m1F40A214F5FF33D8628FE5D979F5654A3CAE850E (void);
+// 0x00000033 System.Void QRTracking.QRCodesManager::Start()
+extern void QRCodesManager_Start_m0EA1DFCCD8A5D13819CECAB4F34D730F6D0DF7E2 (void);
+// 0x00000034 System.Void QRTracking.QRCodesManager::SetupQRTracking()
+extern void QRCodesManager_SetupQRTracking_m61A691EF9BC3314F084B9A18067545F1F7D00573 (void);
+// 0x00000035 System.Void QRTracking.QRCodesManager::StartQRTracking()
+extern void QRCodesManager_StartQRTracking_m62F9D31D3CE2D9BBE15F257A222DC07C76237EA5 (void);
+// 0x00000036 System.Void QRTracking.QRCodesManager::StopQRTracking()
+extern void QRCodesManager_StopQRTracking_m2B3A205A35A01A0CF90ED25E577E035F1D837829 (void);
+// 0x00000037 System.Void QRTracking.QRCodesManager::QRCodeWatcher_Removed(System.Object,Microsoft.MixedReality.QR.QRCodeRemovedEventArgs)
+extern void QRCodesManager_QRCodeWatcher_Removed_m5EE66C32918F5A117F328446BD254787AEAA8E70 (void);
+// 0x00000038 System.Void QRTracking.QRCodesManager::QRCodeWatcher_Updated(System.Object,Microsoft.MixedReality.QR.QRCodeUpdatedEventArgs)
+extern void QRCodesManager_QRCodeWatcher_Updated_m643A58FD0F608D6C7BC3CAC50416DEB8F6B65014 (void);
+// 0x00000039 System.Void QRTracking.QRCodesManager::QRCodeWatcher_Added(System.Object,Microsoft.MixedReality.QR.QRCodeAddedEventArgs)
+extern void QRCodesManager_QRCodeWatcher_Added_mD411213E68E3E96A943F935DE917EF521999E566 (void);
+// 0x0000003A System.Void QRTracking.QRCodesManager::QRCodeWatcher_EnumerationCompleted(System.Object,System.Object)
+extern void QRCodesManager_QRCodeWatcher_EnumerationCompleted_mD038D4411A8CF5501500C4508EE2E1DE6BDCBD62 (void);
+// 0x0000003B System.Void QRTracking.QRCodesManager::Update()
+extern void QRCodesManager_Update_m48E79713040FB7004859A2B65E0289A54E51A79E (void);
+// 0x0000003C System.Void QRTracking.QRCodesManager::.ctor()
+extern void QRCodesManager__ctor_mFBD46B1ABE3DFCF4D990AC6371CB83FF1374C908 (void);
+// 0x0000003D System.Void QRTracking.QRCodesManager/<Start>d__29::MoveNext()
+extern void U3CStartU3Ed__29_MoveNext_m3ECBB759910E10DE27685BD2FB2A900535E44551 (void);
+// 0x0000003E System.Void QRTracking.QRCodesManager/<Start>d__29::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern void U3CStartU3Ed__29_SetStateMachine_m588C94D5FB6E8F6C467A5F079BDFF039B5694F40 (void);
+// 0x0000003F System.Void QRTracking.QRCodesVisualizer::Awake()
+extern void QRCodesVisualizer_Awake_m80F1BDB532BAF915A9521E609D8F5B31869E40E8 (void);
+// 0x00000040 System.Void QRTracking.QRCodesVisualizer::Start()
+extern void QRCodesVisualizer_Start_mCBDF9197A0996D90BBE1CDC64D19A52BFB57D241 (void);
+// 0x00000041 System.Void QRTracking.QRCodesVisualizer::Instance_QRCodesTrackingStateChanged(System.Object,System.Boolean)
+extern void QRCodesVisualizer_Instance_QRCodesTrackingStateChanged_m90ECC4CEEE93D9CA1BEE0AD6F421DABFBF07EBBA (void);
+// 0x00000042 System.Void QRTracking.QRCodesVisualizer::Instance_QRCodeAdded(System.Object,QRTracking.QRCodeEventArgs`1<Microsoft.MixedReality.QR.QRCode>)
+extern void QRCodesVisualizer_Instance_QRCodeAdded_m5B5B364C3D02CEE43D2D31FC9337563CD8CD6C74 (void);
+// 0x00000043 System.Void QRTracking.QRCodesVisualizer::Instance_QRCodeUpdated(System.Object,QRTracking.QRCodeEventArgs`1<Microsoft.MixedReality.QR.QRCode>)
+extern void QRCodesVisualizer_Instance_QRCodeUpdated_m09DFD7A50F076A04B11AE14AC3C452770AE8DCE1 (void);
+// 0x00000044 System.Void QRTracking.QRCodesVisualizer::Instance_QRCodeRemoved(System.Object,QRTracking.QRCodeEventArgs`1<Microsoft.MixedReality.QR.QRCode>)
+extern void QRCodesVisualizer_Instance_QRCodeRemoved_mF88F2A4411DB0CE5E8B942DDBB807244F6534C60 (void);
+// 0x00000045 System.Void QRTracking.QRCodesVisualizer::HandleEvents()
+extern void QRCodesVisualizer_HandleEvents_mDCF4101574176124E8BB8EFD9C0635AE080400C0 (void);
+// 0x00000046 System.Void QRTracking.QRCodesVisualizer::Update()
+extern void QRCodesVisualizer_Update_mCF785905D50F71B440BB5646231081965C5DE439 (void);
+// 0x00000047 System.Void QRTracking.QRCodesVisualizer::StartScan()
+extern void QRCodesVisualizer_StartScan_mE6B7D79F57AC058EDBCC923991B401269898F3FE (void);
+// 0x00000048 System.Void QRTracking.QRCodesVisualizer::StopScan()
+extern void QRCodesVisualizer_StopScan_m33BFA8DE51420051B4C7B3B3B6B25002AAC637FE (void);
+// 0x00000049 System.Void QRTracking.QRCodesVisualizer::ShowModel()
+extern void QRCodesVisualizer_ShowModel_m531A3739E9E1D262157E97A37F367F609F624107 (void);
+// 0x0000004A System.Void QRTracking.QRCodesVisualizer::.ctor()
+extern void QRCodesVisualizer__ctor_m1AB98BB003839C918EEE9D3F65FABFEF96F57D28 (void);
+// 0x0000004B System.Void QRTracking.QRCodesVisualizer/ActionData::.ctor(QRTracking.QRCodesVisualizer/ActionData/Type,Microsoft.MixedReality.QR.QRCode)
+extern void ActionData__ctor_m8B08E69A4860E12412D164D34977DDF70E26E0C6 (void);
+// 0x0000004C T QRTracking.Singleton`1::get_Instance()
+// 0x0000004D System.Void QRTracking.Singleton`1::OnApplicationQuit()
+// 0x0000004E System.Void QRTracking.Singleton`1::OnDestroy()
+// 0x0000004F System.Void QRTracking.Singleton`1::.ctor()
+// 0x00000050 System.Void QRTracking.Singleton`1::.cctor()
+// 0x00000051 System.Guid QRTracking.SpatialGraphNodeTracker::get_Id()
+extern void SpatialGraphNodeTracker_get_Id_mCA21E3E26AF5EA4D8CA207977158FCB0F2C7E678 (void);
+// 0x00000052 System.Void QRTracking.SpatialGraphNodeTracker::set_Id(System.Guid)
+extern void SpatialGraphNodeTracker_set_Id_mC3FA5D3B07FE955112B1236E4E7A4DEF52EB0B9E (void);
+// 0x00000053 System.Void QRTracking.SpatialGraphNodeTracker::Start()
+extern void SpatialGraphNodeTracker_Start_m5811F21E422B7B85006CF7BFD9B3AC6D96F3C89C (void);
+// 0x00000054 System.Void QRTracking.SpatialGraphNodeTracker::Update()
+extern void SpatialGraphNodeTracker_Update_m832DA886E90D89427D2173601B1AA788860C9B4B (void);
+// 0x00000055 System.Void QRTracking.SpatialGraphNodeTracker::InitializeSpatialGraphNode(System.Boolean)
+extern void SpatialGraphNodeTracker_InitializeSpatialGraphNode_m575BBFD36B1092CAE3D8615EE3DA984202EE16A4 (void);
+// 0x00000056 System.Void QRTracking.SpatialGraphNodeTracker::.ctor()
+extern void SpatialGraphNodeTracker__ctor_mACA82E0C9CE93A2F871552C1CCD688BE8C6323B8 (void);
+// 0x00000057 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnEnable()
+extern void GestureTester_OnEnable_m0140D4F607D27D42F445714D070CC7EADA275E24 (void);
+// 0x00000058 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureStarted(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GestureTester_OnGestureStarted_mA2F9607571C1B25131844179BD8F8D2C4A9135C1 (void);
+// 0x00000059 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureUpdated(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GestureTester_OnGestureUpdated_m920CDF75E3D5D1196AA6943F79380C1BEBA2D691 (void);
+// 0x0000005A System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureUpdated(Microsoft.MixedReality.Toolkit.Input.InputEventData`1<UnityEngine.Vector3>)
+extern void GestureTester_OnGestureUpdated_m4DEC84DC52EA27AF644372BD578046DD913562D9 (void);
+// 0x0000005B System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureCompleted(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GestureTester_OnGestureCompleted_mD96137D6F0A6D446314A190F4D86C0EE5197CA47 (void);
+// 0x0000005C System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureCompleted(Microsoft.MixedReality.Toolkit.Input.InputEventData`1<UnityEngine.Vector3>)
+extern void GestureTester_OnGestureCompleted_m439776DB8CC8301E66666823E61FE6FC9C06C77E (void);
+// 0x0000005D System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::OnGestureCanceled(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GestureTester_OnGestureCanceled_mFF8428EAFC7E12AF6D2DC5B1928931F0FD848B3A (void);
+// 0x0000005E System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::SetIndicator(UnityEngine.GameObject,System.String,UnityEngine.Material)
+extern void GestureTester_SetIndicator_mC10E281F42604E9478C157E2E1D6A10045789FDA (void);
+// 0x0000005F System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::SetIndicator(UnityEngine.GameObject,System.String,UnityEngine.Material,UnityEngine.Vector3)
+extern void GestureTester_SetIndicator_mCE66488AB17DA7410AD184940079B68B013EDD63 (void);
+// 0x00000060 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::ShowRails(UnityEngine.Vector3)
+extern void GestureTester_ShowRails_m503612C0788C264B5250059F23F4F267F6662C78 (void);
+// 0x00000061 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::HideRails()
+extern void GestureTester_HideRails_mEF63845796950C93EF3A59BB7E9D9EB6B82192B9 (void);
+// 0x00000062 System.Void Microsoft.MixedReality.Toolkit.Examples.GestureTester::.ctor()
+extern void GestureTester__ctor_mCA9059AE04A957A48F5E848BB37BC4FB1A5AD782 (void);
+// 0x00000063 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::Awake()
+extern void GrabTouchExample_Awake_m193BA2448772C129BA391D7666A5373CA98EAD17 (void);
+// 0x00000064 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnInputDown(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GrabTouchExample_OnInputDown_mC3F4F969AD2D4CF56A74430AB3490F51450E1F98 (void);
+// 0x00000065 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnInputUp(Microsoft.MixedReality.Toolkit.Input.InputEventData)
+extern void GrabTouchExample_OnInputUp_mC8C36E288505E9D1CDC83B3E1EC460A9CD1A0D73 (void);
+// 0x00000066 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnInputPressed(Microsoft.MixedReality.Toolkit.Input.InputEventData`1<System.Single>)
+extern void GrabTouchExample_OnInputPressed_m2841100F2B49BB3112FE2299DA46F20B4F8A0D16 (void);
+// 0x00000067 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnPositionInputChanged(Microsoft.MixedReality.Toolkit.Input.InputEventData`1<UnityEngine.Vector2>)
+extern void GrabTouchExample_OnPositionInputChanged_m593573541A21DE938F4D59DDF9BD010BBD90FB90 (void);
+// 0x00000068 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnTouchCompleted(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void GrabTouchExample_OnTouchCompleted_mD32662B39F01CB3CF379D6D06DF0A5AF82A2DC78 (void);
+// 0x00000069 System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnTouchStarted(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void GrabTouchExample_OnTouchStarted_mAF38AC33B61F16B9D60C5BE60F33683C3FD9B8C2 (void);
+// 0x0000006A System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::OnTouchUpdated(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void GrabTouchExample_OnTouchUpdated_m2C0AB8E1373856E69F3EA6F4F9273532797C740B (void);
+// 0x0000006B System.Void Microsoft.MixedReality.Toolkit.Examples.GrabTouchExample::.ctor()
+extern void GrabTouchExample__ctor_m6FFF0E748673903DFA2072F856F569ECDC1BBF6A (void);
+// 0x0000006C System.Void Microsoft.MixedReality.Toolkit.Examples.LeapMotionOrientationDisplay::.ctor()
+extern void LeapMotionOrientationDisplay__ctor_mC9E9FDEE213D10636277EF57AAA73C69CA0A9DA1 (void);
+// 0x0000006D System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnEnable()
+extern void RotateWithPan_OnEnable_mFA342F4128FB0B7B1FBB2AF91ACAD08BF1B34AA1 (void);
+// 0x0000006E System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnDisable()
+extern void RotateWithPan_OnDisable_m606981F1E173DE557743B647BAFCA2F3E2404600 (void);
+// 0x0000006F System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnPanEnded(Microsoft.MixedReality.Toolkit.UI.HandPanEventData)
+extern void RotateWithPan_OnPanEnded_m51A8B41E337597A21CCF178FF49EFF3148775191 (void);
+// 0x00000070 System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnPanning(Microsoft.MixedReality.Toolkit.UI.HandPanEventData)
+extern void RotateWithPan_OnPanning_m94A91B0C0EE845B7DD4264ADAAF5D3A2C00CCBEE (void);
+// 0x00000071 System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::OnPanStarted(Microsoft.MixedReality.Toolkit.UI.HandPanEventData)
+extern void RotateWithPan_OnPanStarted_mB301E50E665130B7A8278B3AA0AC2E67C5122DD6 (void);
+// 0x00000072 System.Void Microsoft.MixedReality.Toolkit.Examples.RotateWithPan::.ctor()
+extern void RotateWithPan__ctor_mA18E5BAD40CDA091610D697BE9FD1C8636A68EDE (void);
+// 0x00000073 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DebugTextOutput::SetTextWithTimestamp(System.String)
+extern void DebugTextOutput_SetTextWithTimestamp_mDF010EB22994E08515BD0D7168C5FD8A2A79D6C0 (void);
+// 0x00000074 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DebugTextOutput::.ctor()
+extern void DebugTextOutput__ctor_mBA36C4F1E296266F1F198C5A87A3F2EA9AE9E201 (void);
+// 0x00000075 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Awake()
+extern void DemoTouchButton_Awake_m1AF45B8901FCF6F00A529AEFCAE5506AE7555E02 (void);
+// 0x00000076 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler.OnPointerClicked(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerClicked_m81F2A67041570C7B1E224C923F15BF14F3DAF104 (void);
+// 0x00000077 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler.OnPointerDown(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerDown_mD7BA5F74EABF3294BE1DE2E7B90833A84D3EB7BD (void);
+// 0x00000078 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler.OnPointerDragged(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerDragged_m4AE15ED35326CAF13C3E8091A27F54D3A9DFE4C2 (void);
+// 0x00000079 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointerHandler.OnPointerUp(Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData)
+extern void DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerUp_m3EA2E177E8435D21E0459152F9E2CEB4E21F4B1E (void);
+// 0x0000007A System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.DemoTouchButton::.ctor()
+extern void DemoTouchButton__ctor_m8C7E042730F36A15DCA22444DC001BC632B961CF (void);
+// 0x0000007B System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::Start()
+extern void HandInteractionTouch_Start_mEA26CFA5F9C0670533A9D81F9599ACAC2E884FBF (void);
+// 0x0000007C System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler.OnTouchCompleted(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchCompleted_m67EF43CF7170B2DD6F0B3E772C7CF774909E96F2 (void);
+// 0x0000007D System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler.OnTouchStarted(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchStarted_m11803B8B1DAFD3298C29F5EFFD1B5E989C43B4C5 (void);
+// 0x0000007E System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler.OnTouchUpdated(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchUpdated_mC182CAE555F603F49C0E04B1A15816F5BEFE488A (void);
+// 0x0000007F System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouch::.ctor()
+extern void HandInteractionTouch__ctor_m95795EEB965D94E5EE65E4F18F8D1ADE174F6E10 (void);
+// 0x00000080 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouchRotate::Microsoft.MixedReality.Toolkit.Input.IMixedRealityTouchHandler.OnTouchUpdated(Microsoft.MixedReality.Toolkit.Input.HandTrackingInputEventData)
+extern void HandInteractionTouchRotate_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchUpdated_mEC28AD6C2703FE6585BF7C2AD915ED796BFECF0E (void);
+// 0x00000081 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.HandInteractionTouchRotate::.ctor()
+extern void HandInteractionTouchRotate__ctor_m04F2A1112ABDEFB18CC1D8CB81232B06D7AD8622 (void);
+// 0x00000082 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LaunchUri::Launch(System.String)
+extern void LaunchUri_Launch_mC659D1BDD2E134A84AA1791D4D44C87A2A901962 (void);
+// 0x00000083 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LaunchUri::.ctor()
+extern void LaunchUri__ctor_m32487E2888A148FCAD613C50117270B1293E3431 (void);
+// 0x00000084 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LeapCoreAssetsDetector::Start()
+extern void LeapCoreAssetsDetector_Start_mC7AE99208F21C227403657D0886ACA11D32C2732 (void);
+// 0x00000085 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.LeapCoreAssetsDetector::.ctor()
+extern void LeapCoreAssetsDetector__ctor_m4AEEC0EBF67469344098FF87A216AC35B67DCEC5 (void);
+// 0x00000086 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SolverTrackedTargetType::ChangeTrackedTargetTypeHead()
+extern void SolverTrackedTargetType_ChangeTrackedTargetTypeHead_m2B0CD7B51F5FA879B77DCDD61DEB5D9C63E7A037 (void);
+// 0x00000087 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SolverTrackedTargetType::ChangeTrackedTargetTypeHandJoint()
+extern void SolverTrackedTargetType_ChangeTrackedTargetTypeHandJoint_m4B00304A18536F7663D2657FC0D960D1100754B5 (void);
+// 0x00000088 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SolverTrackedTargetType::.ctor()
+extern void SolverTrackedTargetType__ctor_m8CC435EED303E982EE5530B33180A75965B19D15 (void);
+// 0x00000089 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::OpenSystemKeyboard()
+extern void SystemKeyboardExample_OpenSystemKeyboard_m9A274FD549E28BEAA0E4A682FE19F0541CDEA268 (void);
+// 0x0000008A System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::Start()
+extern void SystemKeyboardExample_Start_mEDB82595CBD1EDC4100B67BADA42EFBA88AFEDEB (void);
+// 0x0000008B System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::Update()
+extern void SystemKeyboardExample_Update_m3D734AF77B5A97ACF956F756F563AD4A1740AE63 (void);
+// 0x0000008C System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::.ctor()
+extern void SystemKeyboardExample__ctor_mE654DE87AF0D219838BFA86E424ED1A7E4D6A60D (void);
+// 0x0000008D System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::<Start>b__5_0()
+extern void SystemKeyboardExample_U3CStartU3Eb__5_0_m04C02D511FF57D43D8C1362B68EA608FECCE6496 (void);
+// 0x0000008E System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.SystemKeyboardExample::<Start>b__5_1()
+extern void SystemKeyboardExample_U3CStartU3Eb__5_1_m18421107B564733330B6E9EB2B8C2CE3332C4BCB (void);
+// 0x0000008F System.Single Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::get_DistanceThreshold()
+extern void TetheredPlacement_get_DistanceThreshold_m62793D2B63C9BDE84005340E9CCC9E339CA1DAF3 (void);
+// 0x00000090 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::set_DistanceThreshold(System.Single)
+extern void TetheredPlacement_set_DistanceThreshold_mD3A7F297641ABDE5241779718A49D04D8C58A9F3 (void);
+// 0x00000091 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::Start()
+extern void TetheredPlacement_Start_m6CACD480BBE24C0EB87A6E89715F20893DD5AAE8 (void);
+// 0x00000092 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::LateUpdate()
+extern void TetheredPlacement_LateUpdate_m2B4BE1BD4E712C73D57EED7018B72DB1CC99B124 (void);
+// 0x00000093 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::LockSpawnPoint()
+extern void TetheredPlacement_LockSpawnPoint_mA32ABA5BBD3753BB351C15CF983B486EC5518236 (void);
+// 0x00000094 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.TetheredPlacement::.ctor()
+extern void TetheredPlacement__ctor_mDD6A080D7A8DF6DC83BD6C7C89CF27CF289CFE09 (void);
+// 0x00000095 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.ToggleBoundingBox::Awake()
+extern void ToggleBoundingBox_Awake_m20C0BB56F14913BCB69B995A4A2D6E8508802224 (void);
+// 0x00000096 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.ToggleBoundingBox::ToggleBoundingBoxActiveState()
+extern void ToggleBoundingBox_ToggleBoundingBoxActiveState_m4CA2880B8D2C11ED0EFDD0C9F38ACF6D70B35977 (void);
+// 0x00000097 System.Void Microsoft.MixedReality.Toolkit.Examples.Demos.ToggleBoundingBox::.ctor()
+extern void ToggleBoundingBox__ctor_mF49E02C24C50FB0472BBBD80B9A6E247BC036D11 (void);
+static Il2CppMethodPointer s_methodPointers[151] = 
+{
+	ButtonControler_Start_mCAB9C4AE6A5B732F9D29FA44F843739B066829B4,
+	ButtonControler_Update_m13976D3FE181461717A27A79D63BEC1A271DD30E,
+	ButtonControler__ctor_mDB29A04AAE70057B58BE43D71A422F685229C6C5,
+	DrawLine_Start_m482323EBA42C14D00D810EF242B16D373FDC34B0,
+	DrawLine_Update_m707166BCDD346A55544527D1C963D88CB2C1377B,
+	DrawLine__ctor_m8609DDD68BCAF632AA855FF766E69B83D1AD01C4,
+	TimeTracker_Start_m0D465FB50B4F32610B9A50633831D5526226FE9A,
+	TimeTracker_Update_mFCE263E7DF3674A4640E56A5F3C96BA552AA12D1,
+	TimeTracker__ctor_m98DD7C9C62D67420646C0CBB44D0F14035C786A9,
+	MyQRCodeManager_StartScan_mF73313FBF5BE688D52CD7726B94CF0D9A83AA7E1,
+	MyQRCodeManager_StopScan_m2C165017A5374CF98969D567C7EBB890682CC992,
+	MyQRCodeManager__ctor_m27E49A2CC6E7712EDA03228194DF31A10C645471,
+	StepData__ctor_mFB09FEB422A40D81A3DEA03CC67B097054DDC6D5,
+	StepHandler_Start_mD55E6291A95FB5A0851E72A8E2F05668B89FBFB5,
+	StepHandler_StepHandling_m6BB14B9E659D1DE549BD246BE3A13192315F1A5A,
+	StepHandler_Navigate_mEB5293DD8F6776C71BA40D5CB317A489BEBC9979,
+	StepHandler__ctor_mA3653DBC6137C78851C7C64D57A3FDCBFFA8D375,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	QRCode_get_PhysicalSize_m9BAFFDFA74DE09930F8D66F0E37B2E1A6EC15421,
+	QRCode_set_PhysicalSize_m0A4AFD0FA61E1E75AB70146A601F32920D288BFB,
+	QRCode_get_CodeText_m14CBFF93BBC261D89838E3CD5D2119BF94A3C3FF,
+	QRCode_set_CodeText_mB4878FD110C1D5CC31A1902023CE50DC3BAB433A,
+	QRCode_Start_mC52A1519A5B2DDBFC5C6A2C63A3FC0D815DB2C4E,
+	QRCode_UpdatePropertiesDisplay_m200F7E7501142FF0336A1BD7DBBB6E07A65581FD,
+	QRCode_Update_m229CE998A0C5BFC253ED9232267231EE5C2D0283,
+	QRCode_LaunchUri_m7EEDC21E2709EC77C69F9FCC577B44900FF48122,
+	QRCode_OnInputClicked_mB32979A657D9ADD556CFA0CF9A4D516E5325B8FC,
+	QRCode__ctor_m0574CE789771CAD1E0028F3637E6B8B11905A963,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	QRCodesManager_get_IsTrackerRunning_mEB820442D0588EC9382806131768ED2655C8729B,
+	QRCodesManager_set_IsTrackerRunning_m37EB90CB0A2D98DA445CD02A3A473D01522C05FB,
+	QRCodesManager_get_IsSupported_m09F2E18B4C918A98BCF6699EEAA2592A1F3F0C84,
+	QRCodesManager_set_IsSupported_m8829FFCED6A719B474472C4156D9B92902E1AE18,
+	QRCodesManager_add_QRCodesTrackingStateChanged_m913730A12A01302F5FB3B5B4C08256CF9E855C4C,
+	QRCodesManager_remove_QRCodesTrackingStateChanged_mB71F5708EF9CBA6F5E9896190F370B910A51A48F,
+	QRCodesManager_add_QRCodeAdded_m8CCDC766AC4BBD088E2580C0BFA7372CB098D64C,
+	QRCodesManager_remove_QRCodeAdded_m3EE0D8F4E7023874EF6643B9D70E8240A8C0AA5D,
+	QRCodesManager_add_QRCodeUpdated_mDD7664BAA2BFCA8367E1D10E6E5D0B38A5AD5578,
+	QRCodesManager_remove_QRCodeUpdated_m443468F8A0552E22C14E23AF70C35629F4A85017,
+	QRCodesManager_add_QRCodeRemoved_mD4F8C41368DBAC477390D64A606780C074A73C3B,
+	QRCodesManager_remove_QRCodeRemoved_mE9CC875A8551688DE05448806FC4C702E9B45D2D,
+	QRCodesManager_GetIdForQRCode_m783BF8E2DBB0B8587AD8F1B597C90777E19C239F,
+	QRCodesManager_GetList_mB93EBEE810A94A61F29230CC7D241E754F2B5E15,
+	QRCodesManager_Awake_m1F40A214F5FF33D8628FE5D979F5654A3CAE850E,
+	QRCodesManager_Start_m0EA1DFCCD8A5D13819CECAB4F34D730F6D0DF7E2,
+	QRCodesManager_SetupQRTracking_m61A691EF9BC3314F084B9A18067545F1F7D00573,
+	QRCodesManager_StartQRTracking_m62F9D31D3CE2D9BBE15F257A222DC07C76237EA5,
+	QRCodesManager_StopQRTracking_m2B3A205A35A01A0CF90ED25E577E035F1D837829,
+	QRCodesManager_QRCodeWatcher_Removed_m5EE66C32918F5A117F328446BD254787AEAA8E70,
+	QRCodesManager_QRCodeWatcher_Updated_m643A58FD0F608D6C7BC3CAC50416DEB8F6B65014,
+	QRCodesManager_QRCodeWatcher_Added_mD411213E68E3E96A943F935DE917EF521999E566,
+	QRCodesManager_QRCodeWatcher_EnumerationCompleted_mD038D4411A8CF5501500C4508EE2E1DE6BDCBD62,
+	QRCodesManager_Update_m48E79713040FB7004859A2B65E0289A54E51A79E,
+	QRCodesManager__ctor_mFBD46B1ABE3DFCF4D990AC6371CB83FF1374C908,
+	U3CStartU3Ed__29_MoveNext_m3ECBB759910E10DE27685BD2FB2A900535E44551,
+	U3CStartU3Ed__29_SetStateMachine_m588C94D5FB6E8F6C467A5F079BDFF039B5694F40,
+	QRCodesVisualizer_Awake_m80F1BDB532BAF915A9521E609D8F5B31869E40E8,
+	QRCodesVisualizer_Start_mCBDF9197A0996D90BBE1CDC64D19A52BFB57D241,
+	QRCodesVisualizer_Instance_QRCodesTrackingStateChanged_m90ECC4CEEE93D9CA1BEE0AD6F421DABFBF07EBBA,
+	QRCodesVisualizer_Instance_QRCodeAdded_m5B5B364C3D02CEE43D2D31FC9337563CD8CD6C74,
+	QRCodesVisualizer_Instance_QRCodeUpdated_m09DFD7A50F076A04B11AE14AC3C452770AE8DCE1,
+	QRCodesVisualizer_Instance_QRCodeRemoved_mF88F2A4411DB0CE5E8B942DDBB807244F6534C60,
+	QRCodesVisualizer_HandleEvents_mDCF4101574176124E8BB8EFD9C0635AE080400C0,
+	QRCodesVisualizer_Update_mCF785905D50F71B440BB5646231081965C5DE439,
+	QRCodesVisualizer_StartScan_mE6B7D79F57AC058EDBCC923991B401269898F3FE,
+	QRCodesVisualizer_StopScan_m33BFA8DE51420051B4C7B3B3B6B25002AAC637FE,
+	QRCodesVisualizer_ShowModel_m531A3739E9E1D262157E97A37F367F609F624107,
+	QRCodesVisualizer__ctor_m1AB98BB003839C918EEE9D3F65FABFEF96F57D28,
+	ActionData__ctor_m8B08E69A4860E12412D164D34977DDF70E26E0C6,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	SpatialGraphNodeTracker_get_Id_mCA21E3E26AF5EA4D8CA207977158FCB0F2C7E678,
+	SpatialGraphNodeTracker_set_Id_mC3FA5D3B07FE955112B1236E4E7A4DEF52EB0B9E,
+	SpatialGraphNodeTracker_Start_m5811F21E422B7B85006CF7BFD9B3AC6D96F3C89C,
+	SpatialGraphNodeTracker_Update_m832DA886E90D89427D2173601B1AA788860C9B4B,
+	SpatialGraphNodeTracker_InitializeSpatialGraphNode_m575BBFD36B1092CAE3D8615EE3DA984202EE16A4,
+	SpatialGraphNodeTracker__ctor_mACA82E0C9CE93A2F871552C1CCD688BE8C6323B8,
+	GestureTester_OnEnable_m0140D4F607D27D42F445714D070CC7EADA275E24,
+	GestureTester_OnGestureStarted_mA2F9607571C1B25131844179BD8F8D2C4A9135C1,
+	GestureTester_OnGestureUpdated_m920CDF75E3D5D1196AA6943F79380C1BEBA2D691,
+	GestureTester_OnGestureUpdated_m4DEC84DC52EA27AF644372BD578046DD913562D9,
+	GestureTester_OnGestureCompleted_mD96137D6F0A6D446314A190F4D86C0EE5197CA47,
+	GestureTester_OnGestureCompleted_m439776DB8CC8301E66666823E61FE6FC9C06C77E,
+	GestureTester_OnGestureCanceled_mFF8428EAFC7E12AF6D2DC5B1928931F0FD848B3A,
+	GestureTester_SetIndicator_mC10E281F42604E9478C157E2E1D6A10045789FDA,
+	GestureTester_SetIndicator_mCE66488AB17DA7410AD184940079B68B013EDD63,
+	GestureTester_ShowRails_m503612C0788C264B5250059F23F4F267F6662C78,
+	GestureTester_HideRails_mEF63845796950C93EF3A59BB7E9D9EB6B82192B9,
+	GestureTester__ctor_mCA9059AE04A957A48F5E848BB37BC4FB1A5AD782,
+	GrabTouchExample_Awake_m193BA2448772C129BA391D7666A5373CA98EAD17,
+	GrabTouchExample_OnInputDown_mC3F4F969AD2D4CF56A74430AB3490F51450E1F98,
+	GrabTouchExample_OnInputUp_mC8C36E288505E9D1CDC83B3E1EC460A9CD1A0D73,
+	GrabTouchExample_OnInputPressed_m2841100F2B49BB3112FE2299DA46F20B4F8A0D16,
+	GrabTouchExample_OnPositionInputChanged_m593573541A21DE938F4D59DDF9BD010BBD90FB90,
+	GrabTouchExample_OnTouchCompleted_mD32662B39F01CB3CF379D6D06DF0A5AF82A2DC78,
+	GrabTouchExample_OnTouchStarted_mAF38AC33B61F16B9D60C5BE60F33683C3FD9B8C2,
+	GrabTouchExample_OnTouchUpdated_m2C0AB8E1373856E69F3EA6F4F9273532797C740B,
+	GrabTouchExample__ctor_m6FFF0E748673903DFA2072F856F569ECDC1BBF6A,
+	LeapMotionOrientationDisplay__ctor_mC9E9FDEE213D10636277EF57AAA73C69CA0A9DA1,
+	RotateWithPan_OnEnable_mFA342F4128FB0B7B1FBB2AF91ACAD08BF1B34AA1,
+	RotateWithPan_OnDisable_m606981F1E173DE557743B647BAFCA2F3E2404600,
+	RotateWithPan_OnPanEnded_m51A8B41E337597A21CCF178FF49EFF3148775191,
+	RotateWithPan_OnPanning_m94A91B0C0EE845B7DD4264ADAAF5D3A2C00CCBEE,
+	RotateWithPan_OnPanStarted_mB301E50E665130B7A8278B3AA0AC2E67C5122DD6,
+	RotateWithPan__ctor_mA18E5BAD40CDA091610D697BE9FD1C8636A68EDE,
+	DebugTextOutput_SetTextWithTimestamp_mDF010EB22994E08515BD0D7168C5FD8A2A79D6C0,
+	DebugTextOutput__ctor_mBA36C4F1E296266F1F198C5A87A3F2EA9AE9E201,
+	DemoTouchButton_Awake_m1AF45B8901FCF6F00A529AEFCAE5506AE7555E02,
+	DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerClicked_m81F2A67041570C7B1E224C923F15BF14F3DAF104,
+	DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerDown_mD7BA5F74EABF3294BE1DE2E7B90833A84D3EB7BD,
+	DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerDragged_m4AE15ED35326CAF13C3E8091A27F54D3A9DFE4C2,
+	DemoTouchButton_Microsoft_MixedReality_Toolkit_Input_IMixedRealityPointerHandler_OnPointerUp_m3EA2E177E8435D21E0459152F9E2CEB4E21F4B1E,
+	DemoTouchButton__ctor_m8C7E042730F36A15DCA22444DC001BC632B961CF,
+	HandInteractionTouch_Start_mEA26CFA5F9C0670533A9D81F9599ACAC2E884FBF,
+	HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchCompleted_m67EF43CF7170B2DD6F0B3E772C7CF774909E96F2,
+	HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchStarted_m11803B8B1DAFD3298C29F5EFFD1B5E989C43B4C5,
+	HandInteractionTouch_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchUpdated_mC182CAE555F603F49C0E04B1A15816F5BEFE488A,
+	HandInteractionTouch__ctor_m95795EEB965D94E5EE65E4F18F8D1ADE174F6E10,
+	HandInteractionTouchRotate_Microsoft_MixedReality_Toolkit_Input_IMixedRealityTouchHandler_OnTouchUpdated_mEC28AD6C2703FE6585BF7C2AD915ED796BFECF0E,
+	HandInteractionTouchRotate__ctor_m04F2A1112ABDEFB18CC1D8CB81232B06D7AD8622,
+	LaunchUri_Launch_mC659D1BDD2E134A84AA1791D4D44C87A2A901962,
+	LaunchUri__ctor_m32487E2888A148FCAD613C50117270B1293E3431,
+	LeapCoreAssetsDetector_Start_mC7AE99208F21C227403657D0886ACA11D32C2732,
+	LeapCoreAssetsDetector__ctor_m4AEEC0EBF67469344098FF87A216AC35B67DCEC5,
+	SolverTrackedTargetType_ChangeTrackedTargetTypeHead_m2B0CD7B51F5FA879B77DCDD61DEB5D9C63E7A037,
+	SolverTrackedTargetType_ChangeTrackedTargetTypeHandJoint_m4B00304A18536F7663D2657FC0D960D1100754B5,
+	SolverTrackedTargetType__ctor_m8CC435EED303E982EE5530B33180A75965B19D15,
+	SystemKeyboardExample_OpenSystemKeyboard_m9A274FD549E28BEAA0E4A682FE19F0541CDEA268,
+	SystemKeyboardExample_Start_mEDB82595CBD1EDC4100B67BADA42EFBA88AFEDEB,
+	SystemKeyboardExample_Update_m3D734AF77B5A97ACF956F756F563AD4A1740AE63,
+	SystemKeyboardExample__ctor_mE654DE87AF0D219838BFA86E424ED1A7E4D6A60D,
+	SystemKeyboardExample_U3CStartU3Eb__5_0_m04C02D511FF57D43D8C1362B68EA608FECCE6496,
+	SystemKeyboardExample_U3CStartU3Eb__5_1_m18421107B564733330B6E9EB2B8C2CE3332C4BCB,
+	TetheredPlacement_get_DistanceThreshold_m62793D2B63C9BDE84005340E9CCC9E339CA1DAF3,
+	TetheredPlacement_set_DistanceThreshold_mD3A7F297641ABDE5241779718A49D04D8C58A9F3,
+	TetheredPlacement_Start_m6CACD480BBE24C0EB87A6E89715F20893DD5AAE8,
+	TetheredPlacement_LateUpdate_m2B4BE1BD4E712C73D57EED7018B72DB1CC99B124,
+	TetheredPlacement_LockSpawnPoint_mA32ABA5BBD3753BB351C15CF983B486EC5518236,
+	TetheredPlacement__ctor_mDD6A080D7A8DF6DC83BD6C7C89CF27CF289CFE09,
+	ToggleBoundingBox_Awake_m20C0BB56F14913BCB69B995A4A2D6E8508802224,
+	ToggleBoundingBox_ToggleBoundingBoxActiveState_m4CA2880B8D2C11ED0EFDD0C9F38ACF6D70B35977,
+	ToggleBoundingBox__ctor_mF49E02C24C50FB0472BBBD80B9A6E247BC036D11,
+};
+extern void U3CStartU3Ed__29_MoveNext_m3ECBB759910E10DE27685BD2FB2A900535E44551_AdjustorThunk (void);
+extern void U3CStartU3Ed__29_SetStateMachine_m588C94D5FB6E8F6C467A5F079BDFF039B5694F40_AdjustorThunk (void);
+extern void ActionData__ctor_m8B08E69A4860E12412D164D34977DDF70E26E0C6_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[3] = 
+{
+	{ 0x0600003D, U3CStartU3Ed__29_MoveNext_m3ECBB759910E10DE27685BD2FB2A900535E44551_AdjustorThunk },
+	{ 0x0600003E, U3CStartU3Ed__29_SetStateMachine_m588C94D5FB6E8F6C467A5F079BDFF039B5694F40_AdjustorThunk },
+	{ 0x0600004B, ActionData__ctor_m8B08E69A4860E12412D164D34977DDF70E26E0C6_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[151] = 
+{
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	4188,
+	4112,
+	5183,
+	-1,
+	-1,
+	-1,
+	-1,
+	5137,
+	4268,
+	5090,
+	4224,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	-1,
+	-1,
+	-1,
+	-1,
+	4979,
+	4112,
+	4979,
+	4112,
+	4224,
+	4224,
+	4224,
+	4224,
+	4224,
+	4224,
+	4224,
+	4224,
+	3208,
+	5090,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	2375,
+	2375,
+	2375,
+	2375,
+	5183,
+	5183,
+	5183,
+	4224,
+	5183,
+	5183,
+	2358,
+	2375,
+	2375,
+	2375,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	2195,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	5022,
+	4159,
+	5183,
+	5183,
+	4112,
+	5183,
+	5183,
+	4224,
+	4224,
+	4224,
+	4224,
+	4224,
+	4224,
+	1325,
+	884,
+	4307,
+	5183,
+	5183,
+	5183,
+	4224,
+	4224,
+	4224,
+	4224,
+	4224,
+	4224,
+	4224,
+	5183,
+	5183,
+	5183,
+	5183,
+	4224,
+	4224,
+	4224,
+	5183,
+	4224,
+	5183,
+	5183,
+	4224,
+	4224,
+	4224,
+	4224,
+	5183,
+	5183,
+	4224,
+	4224,
+	4224,
+	5183,
+	4224,
+	5183,
+	4224,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5137,
+	4268,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+	5183,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[6] = 
+{
+	{ 0x0200000C, { 7, 1 } },
+	{ 0x02000012, { 8, 4 } },
+	{ 0x06000012, { 0, 1 } },
+	{ 0x06000013, { 1, 2 } },
+	{ 0x06000014, { 3, 2 } },
+	{ 0x06000020, { 5, 2 } },
+};
+static const Il2CppRGCTXDefinition s_rgctxValues[12] = 
+{
+	{ (Il2CppRGCTXDataType)3, 53655 },
+	{ (Il2CppRGCTXDataType)2, 10813 },
+	{ (Il2CppRGCTXDataType)3, 47731 },
+	{ (Il2CppRGCTXDataType)2, 10814 },
+	{ (Il2CppRGCTXDataType)3, 47732 },
+	{ (Il2CppRGCTXDataType)2, 8828 },
+	{ (Il2CppRGCTXDataType)3, 37778 },
+	{ (Il2CppRGCTXDataType)3, 37779 },
+	{ (Il2CppRGCTXDataType)2, 9905 },
+	{ (Il2CppRGCTXDataType)1, 834 },
+	{ (Il2CppRGCTXDataType)2, 834 },
+	{ (Il2CppRGCTXDataType)3, 53095 },
+};
+extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	151,
+	s_methodPointers,
+	3,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	6,
+	s_rgctxIndices,
+	12,
+	s_rgctxValues,
+	NULL,
+	g_AssemblyU2DCSharp_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

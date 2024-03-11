@@ -1,0 +1,2 @@
+Microsoft.MixedReality.QR.dll
+openxr_loader.dll

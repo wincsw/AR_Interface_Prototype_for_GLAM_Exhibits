@@ -200,7 +200,8 @@ namespace QRTracking
                     model.transform.localRotation = qrcode.Value.gameObject.transform.localRotation;
 
                     statusText.text = "qrcode pos: " + qrcode.Value.gameObject.transform.localPosition + "model pos: " +
-                                      model.transform.localPosition;
+                                      model.transform.localPosition + "model rotation: " +
+                                      model.transform.localRotation;
                 }
             }
 

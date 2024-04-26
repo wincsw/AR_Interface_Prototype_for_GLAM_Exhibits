@@ -24,7 +24,7 @@ Hand gesture control is utilized for interaction with virtual elements within th
 
 ## Installation
 
-###Quick Install: 
+### Quick Install: 
 1. Clone the project repository from GitHub.
 2. Open file `Build/AR_Exhibit_Interface.sln` with Visual Studio.
 3. Connect your Microsoft HoloLens 2 device to your development machine.
@@ -32,7 +32,7 @@ Hand gesture control is utilized for interaction with virtual elements within th
 5. Deploy project on HoloLens 2 by **_Start Without Debugging_**.
 6. Put on the HoloLens 2 device and open application named **_AR Exhibit Interface_**
 
-###Full Install:
+### Full Install:
 1. Ensure you have **Unity 2020.3.37f1** installed on your development machine.
 2. Clone the project repository from GitHub.
 3. Open the project in Unity.

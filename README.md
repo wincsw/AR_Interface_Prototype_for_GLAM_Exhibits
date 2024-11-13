@@ -3,6 +3,8 @@
 ## Description
 The AR Interface Prototype for GLAM (Galleries, Libraries, Archives, and Museums) Exhibits is an augmented reality (AR) solution designed to enhance visitor engagement and educational outcomes within exhibit spaces. The project focuses on leveraging AR technology to provide an interactive interface for displaying exhibit information in various multimedia formats, including audio, text, and images. By integrating AR elements, the prototype aims to elevate the visitor's engagement level while maintaining the focus on the exhibited pieces.
 
+For more details, please refer to the [**project website**](https://wp2023.cs.hku.hk/fyp23027/) and [**final report**](https://wp2023.cs.hku.hk/fyp23027/wp-content/uploads/sites/28/FinalReport.pdf)
+
 ## Features
 ### QR Code Tracking and Object Placement
 The QR code tracking feature is a crucial component of the AR interface prototype. It allows for precise placement of virtual components in the real-world environment. The QR code tracking is controlled by the QR code SDK and consists of three main game objects: QR code manager, QR code panel, and QR code visualizer.
